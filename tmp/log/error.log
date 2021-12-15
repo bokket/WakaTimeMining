@@ -1,0 +1,1452 @@
+{"level":"info","msg":"http: panic serving [::1]:55586: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"goroutine 33 [running]:","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0001337c0)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00029e000, 0x78b8e0, 0xc000298240, 0x3a, 0x0)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00029e000, 0xc0002b8100)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00029e000, 0xc0002b8100)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00029e000, 0xc000196c00)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00029e000, 0xc000196c00)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0001337c0, 0x8414a0, 0xc000152c80)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55588: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"goroutine 50 [running]:","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133860)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182380, 0x78b8e0, 0xc000152f00, 0x3a, 0x0)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182380, 0xc000196e00)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182380, 0xc000196e00)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182380, 0xc000196b00)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182380, 0xc000196b00)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133860, 0x8414a0, 0xc000152c00)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55590: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"goroutine 69 [running]:","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8000)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182460, 0x78b8e0, 0xc000153180, 0x3a, 0x0)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182460, 0xc000197100)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182460, 0xc000197100)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182460, 0xc0002b8400)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182460, 0xc0002b8400)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8000, 0x8414a0, 0xc000298280)","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:12+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55592: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"goroutine 57 [running]:","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133900)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00029e0e0, 0x78b8e0, 0xc000298540, 0x3a, 0x0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00029e0e0, 0xc0002b8700)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00029e0e0, 0xc0002b8700)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00029e0e0, 0xc000197300)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00029e0e0, 0xc000197300)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133900, 0x8414a0, 0xc0001531c0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55594: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"goroutine 58 [running]:","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0001339a0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182540, 0x78b8e0, 0xc000153540, 0x3a, 0x0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182540, 0xc000197700)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182540, 0xc000197700)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182540, 0xc000197400)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182540, 0xc000197400)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0001339a0, 0x8414a0, 0xc000153240)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55596: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"goroutine 62 [running]:","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133a40)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182620, 0x78b8e0, 0xc000153840, 0x3a, 0x0)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182620, 0xc000197c00)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182620, 0xc000197c00)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182620, 0xc000197900)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182620, 0xc000197900)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133a40, 0x8414a0, 0xc000153580)","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:13+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55604: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"goroutine 82 [running]:","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133ae0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000246000, 0x78b8e0, 0xc00022a380, 0x3a, 0x0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000246000, 0xc000234300)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000246000, 0xc000234300)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000246000, 0xc000234000)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000246000, 0xc000234000)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133ae0, 0x8414a0, 0xc00022a0c0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55606: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"goroutine 83 [running]:","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133b80)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00029e1c0, 0x78b8e0, 0xc0002987c0, 0x3a, 0x0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00029e1c0, 0xc0002b8b00)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00029e1c0, 0xc0002b8b00)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00029e1c0, 0xc000197e00)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00029e1c0, 0xc000197e00)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133b80, 0x8414a0, 0xc000153880)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55608: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"goroutine 84 [running]:","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133c20)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182700, 0x78b8e0, 0xc00022a440, 0x3a, 0x0)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182700, 0xc00035a200)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182700, 0xc00035a200)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182700, 0xc000197f00)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182700, 0xc000197f00)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133c20, 0x8414a0, 0xc000153900)","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:14+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55610: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"goroutine 102 [running]:","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc00041a000)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0002460e0, 0x78b8e0, 0xc00022a740, 0x3a, 0x0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0002460e0, 0xc000234800)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0002460e0, 0xc000234800)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0002460e0, 0xc000234500)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0002460e0, 0xc000234500)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc00041a000, 0x8414a0, 0xc00022a480)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55612: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"goroutine 76 [running]:","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f80a0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0002461c0, 0x78b8e0, 0xc00022a9c0, 0x3a, 0x0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0002461c0, 0xc000234c00)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0002461c0, 0xc000234c00)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0002461c0, 0xc0002b8d00)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0002461c0, 0xc0002b8d00)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f80a0, 0x8414a0, 0xc000298800)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55614: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"goroutine 109 [running]:","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc00041a0a0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c2000, 0x78b8e0, 0xc0000bc240, 0x3a, 0x0)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c2000, 0xc0000ac200)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c2000, 0xc0000ac200)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c2000, 0xc000234e00)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c2000, 0xc000234e00)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc00041a0a0, 0x8414a0, 0xc00022aa00)","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:15+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55636: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"goroutine 38 [running]:","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000492000)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00029e2a0, 0x78b8e0, 0xc0000bc480, 0x3a, 0x0)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00029e2a0, 0xc0002b9000)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00029e2a0, 0xc0002b9000)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00029e2a0, 0xc0000ac500)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00029e2a0, 0xc0000ac500)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000492000, 0x8414a0, 0xc0000bc300)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55638: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"goroutine 39 [running]:","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0004920a0)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c20e0, 0x78b8e0, 0xc0000bc700, 0x3a, 0x0)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c20e0, 0xc0000ac900)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c20e0, 0xc0000ac900)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c20e0, 0xc0000ac400)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c20e0, 0xc0000ac400)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0004920a0, 0x8414a0, 0xc0000bc280)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55640: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"goroutine 44 [running]:","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000492140)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00029e380, 0x78b8e0, 0xc000298cc0, 0x3a, 0x0)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00029e380, 0xc0002b9400)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00029e380, 0xc0002b9400)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00029e380, 0xc0002b9100)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00029e380, 0xc0002b9100)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000492140, 0x8414a0, 0xc000298a00)","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:22+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55642: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"goroutine 114 [running]:","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8140)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c21c0, 0x78b8e0, 0xc0000bca00, 0x3a, 0x0)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c21c0, 0xc0000ace00)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c21c0, 0xc0000ace00)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c21c0, 0xc0000acb00)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c21c0, 0xc0000acb00)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8140, 0x8414a0, 0xc0000bc740)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55644: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"goroutine 115 [running]:","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f81e0)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c22a0, 0x78b8e0, 0xc000298e40, 0x3a, 0x0)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c22a0, 0xc0000ad200)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c22a0, 0xc0000ad200)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c22a0, 0xc0002b9600)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c22a0, 0xc0002b9600)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f81e0, 0x8414a0, 0xc000298d00)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55646: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"goroutine 117 [running]:","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8280)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0002462a0, 0x78b8e0, 0xc000298f40, 0x3a, 0x0)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0002462a0, 0xc000235200)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0002462a0, 0xc000235200)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0002462a0, 0xc000234f00)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0002462a0, 0xc000234f00)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8280, 0x8414a0, 0xc00022aa80)","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:23+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55652: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"goroutine 119 [running]:","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8320)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000246380, 0x78b8e0, 0xc0000bccc0, 0x3a, 0x0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000246380, 0xc000235600)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000246380, 0xc000235600)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000246380, 0xc000235300)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000246380, 0xc000235300)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8320, 0x8414a0, 0xc00022ac80)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55654: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"goroutine 120 [running]:","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f83c0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001820e0, 0x78b8e0, 0xc000028280, 0x3a, 0x0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001820e0, 0xc0002b8200)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001820e0, 0xc0002b8200)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001820e0, 0xc0002b9900)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001820e0, 0xc0002b9900)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f83c0, 0x8414a0, 0xc000298f80)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55656: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"goroutine 148 [running]:","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000132320)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001821c0, 0x78b8e0, 0xc000028580, 0x3a, 0x0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001821c0, 0xc0002b8700)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001821c0, 0xc0002b8700)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001821c0, 0xc0002b8400)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001821c0, 0xc0002b8400)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000132320, 0x8414a0, 0xc0000282c0)","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:24+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55670: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"goroutine 149 [running]:","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000132fa0)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000246000, 0x78b8e0, 0xc0002982c0, 0x3a, 0x0)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000246000, 0xc00045c300)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000246000, 0xc00045c300)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000246000, 0xc000234000)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000246000, 0xc000234000)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000132fa0, 0x8414a0, 0xc000152100)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55672: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"goroutine 150 [running]:","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133180)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0002460e0, 0x78b8e0, 0xc000298540, 0x3a, 0x0)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0002460e0, 0xc00045c700)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0002460e0, 0xc00045c700)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0002460e0, 0xc00045c000)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0002460e0, 0xc00045c000)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133180, 0x8414a0, 0xc000298000)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55674: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"goroutine 157 [running]:","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133360)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0002461c0, 0x78b8e0, 0xc000298880, 0x3a, 0x0)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0002461c0, 0xc00045cc00)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0002461c0, 0xc00045cc00)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0002461c0, 0xc00045c900)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0002461c0, 0xc00045c900)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133360, 0x8414a0, 0xc000298580)","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:29+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55766: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"goroutine 161 [running]:","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0001334a0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001822a0, 0x78b8e0, 0xc000028800, 0x3a, 0x0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001822a0, 0xc0002b8b00)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001822a0, 0xc0002b8b00)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001822a0, 0xc00045cf00)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001822a0, 0xc00045cf00)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0001334a0, 0x8414a0, 0xc000298940)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55768: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"goroutine 162 [running]:","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133540)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0002462a0, 0x78b8e0, 0xc000152400, 0x3a, 0x0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0002462a0, 0xc00045d200)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0002462a0, 0xc00045d200)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0002462a0, 0xc00045ce00)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0002462a0, 0xc00045ce00)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133540, 0x8414a0, 0xc0002988c0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55770: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"goroutine 165 [running]:","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0001335e0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001f2000, 0x78b8e0, 0xc000152700, 0x3a, 0x0)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001f2000, 0xc000234500)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001f2000, 0xc000234500)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001f2000, 0xc000234200)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001f2000, 0xc000234200)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0001335e0, 0x8414a0, 0xc000152440)","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:53:59+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55930: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"goroutine 137 [running]:","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8000)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182380, 0x78b8e0, 0xc000028a80, 0x3a, 0x0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182380, 0xc0002b8f00)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182380, 0xc0002b8f00)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182380, 0xc00045d300)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182380, 0xc00045d300)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8000, 0x8414a0, 0xc000298b40)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55932: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"goroutine 138 [running]:","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f80a0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182460, 0x78b8e0, 0xc000028d00, 0x3a, 0x0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182460, 0xc0002b9300)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182460, 0xc0002b9300)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182460, 0xc000234700)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182460, 0xc000234700)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f80a0, 0x8414a0, 0xc000152740)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55934: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"goroutine 182 [running]:","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc00028a000)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001f20e0, 0x78b8e0, 0xc000152a80, 0x3a, 0x0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001f20e0, 0xc000234b00)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001f20e0, 0xc000234b00)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001f20e0, 0xc000234800)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001f20e0, 0xc000234800)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc00028a000, 0x8414a0, 0xc0001527c0)","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:54:59+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55956: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"goroutine 142 [running]:","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8140)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000246460, 0x78b8e0, 0xc000298e80, 0x3a, 0x0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000246460, 0xc00045d600)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000246460, 0xc00045d600)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000246460, 0xc000234d00)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000246460, 0xc000234d00)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8140, 0x8414a0, 0xc000152ac0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55972: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"goroutine 166 [running]:","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133680)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001f21c0, 0x78b8e0, 0xc000152d80, 0x3a, 0x0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001f21c0, 0xc000234f00)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001f21c0, 0xc000234f00)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001f21c0, 0xc00045d400)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001f21c0, 0xc00045d400)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133680, 0x8414a0, 0xc000298bc0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55974: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"goroutine 170 [running]:","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133720)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001f22a0, 0x78b8e0, 0xc000153000, 0x3a, 0x0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001f22a0, 0xc000235200)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001f22a0, 0xc000235200)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001f22a0, 0xc00045d800)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001f22a0, 0xc00045d800)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133720, 0x8414a0, 0xc000298ec0)","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:09+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55976: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"goroutine 197 [running]:","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f81e0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001f2380, 0x78b8e0, 0xc0001533c0, 0x3a, 0x0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001f2380, 0xc000235a00)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001f2380, 0xc000235a00)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001f2380, 0xc000235600)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001f2380, 0xc000235600)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f81e0, 0x8414a0, 0xc000153040)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55978: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"goroutine 183 [running]:","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc00028a0a0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001f2460, 0x78b8e0, 0xc000153640, 0x3a, 0x0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001f2460, 0xc000235e00)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001f2460, 0xc000235e00)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001f2460, 0xc000235700)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001f2460, 0xc000235700)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc00028a0a0, 0x8414a0, 0xc0001530c0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55980: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"goroutine 204 [running]:","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8280)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000246540, 0x78b8e0, 0xc000299200, 0x3a, 0x0)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000246540, 0xc00045db00)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000246540, 0xc00045db00)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000246540, 0xc0003d6000)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000246540, 0xc0003d6000)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8280, 0x8414a0, 0xc000153680)","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:10+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:55998: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"goroutine 205 [running]:","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8460)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182540, 0x78b8e0, 0xc00022a100, 0x3a, 0x0)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182540, 0xc0002b9800)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182540, 0xc0002b9800)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182540, 0xc00045dd00)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182540, 0xc00045dd00)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8460, 0x8414a0, 0xc000299240)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56000: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"goroutine 206 [running]:","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8500)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000480000, 0x78b8e0, 0xc00022a380, 0x3a, 0x0)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000480000, 0xc000436200)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000480000, 0xc000436200)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000480000, 0xc0002b9500)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000480000, 0xc0002b9500)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8500, 0x8414a0, 0xc000028d40)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56002: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"goroutine 129 [running]:","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0004b2000)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004800e0, 0x78b8e0, 0xc00022a680, 0x3a, 0x0)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004800e0, 0xc000436700)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004800e0, 0xc000436700)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004800e0, 0xc000436400)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004800e0, 0xc000436400)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0004b2000, 0x8414a0, 0xc00022a3c0)","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:15+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56032: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 207 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f85a0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001820e0, 0x78b8e0, 0xc000152340, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001820e0, 0xc0003d6400)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001820e0, 0xc0003d6400)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001820e0, 0xc0003d6200)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001820e0, 0xc0003d6200)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f85a0, 0x8414a0, 0xc0002992c0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56034: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 208 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8640)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c4000, 0x78b8e0, 0xc0001525c0, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c4000, 0xc00007c300)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c4000, 0xc00007c300)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c4000, 0xc0003d6100)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c4000, 0xc0003d6100)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8640, 0x8414a0, 0xc000153700)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56036: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 9 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8000)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c40e0, 0x78b8e0, 0xc0001528c0, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c40e0, 0xc00007c800)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c40e0, 0xc00007c800)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c40e0, 0xc00007c500)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c40e0, 0xc00007c500)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8000, 0x8414a0, 0xc000152600)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56038: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 188 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000132320)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00013c000, 0x78b8e0, 0xc00022a340, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00013c000, 0xc0004be300)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00013c000, 0xc0004be300)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00013c000, 0xc0003d6500)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00013c000, 0xc0003d6500)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000132320, 0x8414a0, 0xc0000281c0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56040: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 213 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0004bc000)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00013c0e0, 0x78b8e0, 0xc00022a5c0, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00013c0e0, 0xc0004be700)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00013c0e0, 0xc0004be700)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00013c0e0, 0xc0004be000)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00013c0e0, 0xc0004be000)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0004bc000, 0x8414a0, 0xc00022a040)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56042: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 220 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0004bc0a0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00013c1c0, 0x78b8e0, 0xc00022a8c0, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00013c1c0, 0xc0004bec00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00013c1c0, 0xc0004bec00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00013c1c0, 0xc0004be900)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00013c1c0, 0xc0004be900)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0004bc0a0, 0x8414a0, 0xc00022a600)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56044: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 224 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0004bc140)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00013c2a0, 0x78b8e0, 0xc000152980, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00013c2a0, 0xc0004bf100)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00013c2a0, 0xc0004bf100)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00013c2a0, 0xc0003d6600)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00013c2a0, 0xc0003d6600)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0004bc140, 0x8414a0, 0xc000028240)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56046: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 225 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0004bc1e0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c41c0, 0x78b8e0, 0xc000152c00, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c41c0, 0xc00007cc00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c41c0, 0xc00007cc00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c41c0, 0xc0004bee00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c41c0, 0xc0004bee00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0004bc1e0, 0x8414a0, 0xc00022a900)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56048: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"goroutine 242 [running]:","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f80a0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001821c0, 0x78b8e0, 0xc000152d40, 0x3a, 0x0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001821c0, 0xc0003d6a00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001821c0, 0xc0003d6a00)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001821c0, 0xc0003d6700)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001821c0, 0xc0003d6700)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f80a0, 0x8414a0, 0xc0000282c0)","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:25+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56056: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"goroutine 244 [running]:","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8140)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00013c380, 0x78b8e0, 0xc00022adc0, 0x3a, 0x0)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00013c380, 0xc0004bf500)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00013c380, 0xc0004bf500)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00013c380, 0xc0003d6b00)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00013c380, 0xc0003d6b00)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8140, 0x8414a0, 0xc000028480)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56058: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"goroutine 245 [running]:","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f81e0)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc00013c460, 0x78b8e0, 0xc000152ec0, 0x3a, 0x0)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc00013c460, 0xc0004bf900)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc00013c460, 0xc0004bf900)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc00013c460, 0xc00007cf00)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc00013c460, 0xc00007cf00)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f81e0, 0x8414a0, 0xc000152d80)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56060: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"goroutine 233 [running]:","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0004bc280)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c42a0, 0x78b8e0, 0xc000153140, 0x3a, 0x0)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c42a0, 0xc00007d300)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c42a0, 0xc00007d300)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c42a0, 0xc0003d6c00)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c42a0, 0xc0003d6c00)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0004bc280, 0x8414a0, 0xc000028500)","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:27+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56062: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"goroutine 250 [running]:","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8280)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001822a0, 0x78b8e0, 0xc000028840, 0x3a, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001822a0, 0xc0003d7000)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001822a0, 0xc0003d7000)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001822a0, 0xc0003d6d00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001822a0, 0xc0003d6d00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8280, 0x8414a0, 0xc000028580)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56064: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"goroutine 251 [running]:","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f8320)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c4380, 0x78b8e0, 0xc000153480, 0x3a, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c4380, 0xc00007d800)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c4380, 0xc00007d800)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c4380, 0xc00007d500)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c4380, 0xc00007d500)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f8320, 0x8414a0, 0xc000153180)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56066: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"goroutine 209 [running]:","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0003da000)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c4460, 0x78b8e0, 0xc000028880, 0x3a, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c4460, 0xc00007dd00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c4460, 0xc00007dd00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c4460, 0xc00007da00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c4460, 0xc00007da00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0003da000, 0x8414a0, 0xc0001534c0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56068: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"goroutine 258 [running]:","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000132fa0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182380, 0x78b8e0, 0xc000028c00, 0x3a, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182380, 0xc0003d7600)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182380, 0xc0003d7600)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182380, 0xc0003d7200)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182380, 0xc0003d7200)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000132fa0, 0x8414a0, 0xc0000288c0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56070: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"goroutine 274 [running]:","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0003da0a0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182460, 0x78b8e0, 0xc000028e80, 0x3a, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182460, 0xc0003d7a00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182460, 0xc0003d7a00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182460, 0xc0003d7300)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182460, 0xc0003d7300)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0003da0a0, 0x8414a0, 0xc000028940)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56072: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"goroutine 265 [running]:","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133180)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc000182540, 0x78b8e0, 0xc000298080, 0x3a, 0x0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc000182540, 0xc0003d7f00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc000182540, 0xc0003d7f00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc000182540, 0xc0003d7c00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc000182540, 0xc0003d7c00)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133180, 0x8414a0, 0xc000028ec0)","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:55:28+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56158: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"goroutine 276 [running]:","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0003da140)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004ba000, 0x78b8e0, 0xc000153840, 0x3e, 0x0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004ba000, 0xc0004ae300)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004ba000, 0xc0004ae300)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004ba000, 0xc00046a100)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004ba000, 0xc00046a100)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0003da140, 0x8414a0, 0xc000029100)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56160: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"goroutine 277 [running]:","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0003da1e0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0000c4540, 0x78b8e0, 0xc000153ac0, 0x3e, 0x0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0000c4540, 0xc0003f0100)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0000c4540, 0xc0003f0100)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0000c4540, 0xc0004ae000)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0000c4540, 0xc0004ae000)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0003da1e0, 0x8414a0, 0xc0002980c0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56162: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"goroutine 293 [running]:","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0002f83c0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004ba0e0, 0x78b8e0, 0xc000298680, 0x3e, 0x0)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004ba0e0, 0xc0004ae800)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004ba0e0, 0xc0004ae800)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004ba0e0, 0xc0004ae500)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004ba0e0, 0xc0004ae500)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0002f83c0, 0x8414a0, 0xc000298380)","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:01+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56168: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"goroutine 268 [running]:","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133360)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004ba1c0, 0x78b8e0, 0xc0002989c0, 0x3e, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004ba1c0, 0xc0004aed00)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004ba1c0, 0xc0004aed00)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004ba1c0, 0xc0004aea00)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004ba1c0, 0xc0004aea00)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133360, 0x8414a0, 0xc0002986c0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56170: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"goroutine 269 [running]:","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc0001334a0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004ba2a0, 0x78b8e0, 0xc000153b40, 0x3e, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004ba2a0, 0xc0004af100)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004ba2a0, 0xc0004af100)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004ba2a0, 0xc00046a200)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004ba2a0, 0xc00046a200)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc0001334a0, 0x8414a0, 0xc000029180)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56172: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"goroutine 234 [running]:","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000132320)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0001820e0, 0x78b8e0, 0xc000152500, 0x3e, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0001820e0, 0xc00046a400)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0001820e0, 0xc00046a400)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0001820e0, 0xc00046a000)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0001820e0, 0xc00046a000)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000132320, 0x8414a0, 0xc000152100)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56174: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"goroutine 238 [running]:","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000132fa0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004ba000, 0x78b8e0, 0xc000028340, 0x3e, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004ba000, 0xc0004ae300)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004ba000, 0xc0004ae300)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004ba000, 0xc0004ae000)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004ba000, 0xc0004ae000)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000132fa0, 0x8414a0, 0xc000028040)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56176: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"goroutine 239 [running]:","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133180)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004ba0e0, 0x78b8e0, 0xc0000285c0, 0x3e, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004ba0e0, 0xc0004ae700)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004ba0e0, 0xc0004ae700)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004ba0e0, 0xc00046a600)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004ba0e0, 0xc00046a600)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133180, 0x8414a0, 0xc000152540)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"http: panic serving [::1]:56178: runtime error: invalid memory address or nil pointer dereference","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"goroutine 240 [running]:","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve.func1(0xc000133360)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1824 +0x153","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"panic(0x771320, 0xa1fd90)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/runtime/panic.go:971 +0x499","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).escape(0x0, 0x0, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:97 +0x3b","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"html/template.(*Template).Execute(0x0, 0x83c020, 0xc0004ba1c0, 0x78b8e0, 0xc0000288c0, 0x3e, 0x0)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/html/template/template.go:121 +0x2f","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"wakever/handler.ShowIndexView(0x840db0, 0xc0004ba1c0, 0xc0004aec00)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/Wakever/handler/index_template_view.go:41 +0x29c","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.HandlerFunc.ServeHTTP(0x7e9318, 0x840db0, 0xc0004ba1c0, 0xc0004aec00)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2069 +0x44","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"github.com/gorilla/mux.(*Router).ServeHTTP(0xc000180000, 0x840db0, 0xc0004ba1c0, 0xc0004ae900)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/home/bokket/go/pkg/mod/github.com/gorilla/mux@v1.7.3/mux.go:212 +0xd3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.serverHandler.ServeHTTP(0xc000182000, 0x840db0, 0xc0004ba1c0, 0xc0004ae900)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:2887 +0xa3","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"net/http.(*conn).serve(0xc000133360, 0x8414a0, 0xc000028600)","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:1952 +0x8cd","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"created by net/http.(*Server).Serve","time":"2021-12-14T14:56:02+08:00"}
+{"level":"info","msg":"\t/usr/local/go/src/net/http/server.go:3013 +0x39b","time":"2021-12-14T14:56:02+08:00"}
